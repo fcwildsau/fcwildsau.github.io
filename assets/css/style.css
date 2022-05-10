@@ -1,0 +1,29 @@
+@font-face {
+    font-family: 'Albertus Medium';
+    font-style: normal;
+    font-weight: normal;
+    src: url('../webfonts/Albertus-Medium-Regular.woff') format('woff');
+}
+
+body {
+    background-color: white;
+    color: black;
+    font-family: 'Albertus Medium';
+}
+
+img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  max-height: 100vh;
+  width: auto;
+}
+
+@media (orientation : portrait) {
+  img {
+    max-width: 100vw;
+    height: auto;
+  }
+}
