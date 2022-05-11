@@ -169,9 +169,9 @@ h6 {
   font-weight: var(--font-weight-body);
   }
 p {
-  hyphens: auto;
-  -ms-hyphens: auto;
   -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  hyphens: auto;
   margin: 0;
 }
 p + p {
